@@ -6,7 +6,7 @@ function Jobs() {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
   useEffect(() => {
-    fetch("http://refertest.pythonanywhere.com/job/openings")
+    fetch("https://refertest.pythonanywhere.com/job/openings")
       .then((response) => {
         if (!response.ok) {
           throw new Error(

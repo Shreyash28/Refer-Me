@@ -5,7 +5,7 @@ function Person() {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
   useEffect(() => {
-    fetch(`http://refertest.pythonanywhere.com/user/data`)
+    fetch(`https://refertest.pythonanywhere.com/user/data`)
       .then((response) => {
         if (!response.ok) {
           throw new Error(
