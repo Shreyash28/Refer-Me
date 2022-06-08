@@ -1,0 +1,78 @@
+.job_description {
+  margin: 8px;
+  background-color: white;
+  width: 700px;
+  border: 1px solid #ebf0f6;
+  padding: 24px 24px 16px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.job_title h4 {
+  margin: 12px 0;
+  font-size: 20px;
+  font-weight: 500;
+  padding-top: 7px;
+  padding-left: 10px;
+  text-align: left;
+}
+.job_company p {
+  text-align: left;
+  font-size: 14px;
+  padding-left: 13px;
+}
+
+.job_info {
+  display: flex;
+  align-items: center;
+}
+
+.job_location {
+  display: flex;
+  color: grey;
+  align-items: center;
+
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.job_location_info {
+  font-size: 12px;
+}
+
+.job_location_icon {
+  transform: scale(1);
+}
+
+.job_min_experience {
+  display: flex;
+  align-items: center;
+  color: grey;
+}
+
+.job_min_experience_info {
+  font-size: 12px;
+}
+.job_min_experience_icon {
+  transform: scale(1);
+}
+
+.job_skills{
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+    font-size: 12px;
+    color: grey;
+}
+.job_skills_list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  padding-left: 12px; 
+}
+
+.job_skills_list li {
+  font-size: 12px;
+  display: inline;
+  padding:0 4px;
+}
+
+
